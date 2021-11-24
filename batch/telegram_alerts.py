@@ -1,5 +1,10 @@
-import os
+import os, sys
 from pathlib import Path
+
+module_path = os.path.join(Path(__file__).parent.absolute().as_posix(), '..')
+
+if module_path not in sys.path:
+    sys.path.append(module_path)
 
 from crawl.rss_feed_crawler import RSSFeedCrawler
 from repository.crawl_info_repository import CrawlInfoRepository
