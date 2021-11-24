@@ -12,6 +12,7 @@ import telegram
 
 
 MY_TOKEN = ''
+CHAT_ID = ''
 
 
 def read_site_list():
@@ -39,7 +40,6 @@ if __name__ == "__main__":
     contents = crawler.get_site_contents()
 
     bot = telegram.Bot(token=MY_TOKEN)
-    chat_id = bot.getUpdates()[-1].message.chat.id
 
     for content in contents:
-        bot.sendMessage(chat_id=chat_id, text="%s\n%s" % (content['title'], content['content_url']))
+        bot.sendMessage(chat_id=CHAT_ID, text="%s\n%s" % (content['title'], content['content_url']))

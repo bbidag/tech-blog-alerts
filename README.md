@@ -11,7 +11,7 @@ How to Use?
     2. /newbot
     3. bot 이름 생성
     4. bot 아이디 생성
-3. batch/telegram_alerts.py **MY_TOKEN**에 자신의 입력
+3. batch/telegram_alerts.py **MY_TOKEN**, **CHAT_ID**에 자신의 토큰과 아이디 입력 (채팅방에 임의의 채팅을 보낸 후 bot.getUpdates()[0].message.chat.id로 조회)
 4. telegram_alerts.py 실행시 텔레그램 컨텐츠 게시
 5. resources/sites.txt 파일에 기존 마음에 들지 않는 url을 삭제하거나 자신이 구독하고 싶은 url을 입력
   
