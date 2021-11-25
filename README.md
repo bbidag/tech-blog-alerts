@@ -36,3 +36,4 @@ How to Use?
 - [링크드인](https://engineering.linkedin.com/blog.rss.html)
 - [페이팔](https://medium.com/feed/paypal-tech)
 - [월마트](https://medium.com/feed/walmartglobaltech)
+- [카카오](https://tech.kakao.com/feed/)

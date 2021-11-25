@@ -14,3 +14,4 @@ https://tech.socarcorp.kr/feed
 https://netflixtechblog.com/feed
 https://engineering.linkedin.com/blog.rss.html
 https://medium.com/feed/paypal-tech
+https://tech.kakao.com/feed/
